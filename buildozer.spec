@@ -2,39 +2,14 @@
 title = HK Apple Monitor
 package.name = hkapplemonitor
 package.domain = com.kingsley.hkapple
-
-source.dir = .
-source.include_exts = py,png,jpg,kv,atlas
+source.dir =.
+source.include_exts = py
 version = 1.0
 requirements = python3,kivy,aiohttp
 orientation = portrait
 
 [buildozer]
-log_level = 2
-
-# (str) Path to build artifact storage, absolute or relative to spec file
-# build_dir = ./.buildozer
-
-# (str) Path to build output (i.e. .apk, .aab, .ipa) storage
-# bin_dir = ./bin
-
-#    -----------------------------------------------------------------------------
-#    List as sections
-#
-#    You can define all the "list" as [section:key].
-#    Each line will be considered as a option to the list.
-#    Let's take [app] / source.exclude_patterns.
-#    Instead of doing:
-#
-#[app]
-#source.exclude_patterns = license,data/audio/*.wav,data/images/original/*
-#
-#    This can be translated into:
-#
-#[app:source.exclude_patterns]
-#license
-#data/audio/*.wav
-#data/images/original/*
+log_level = 2#data/images/original/*
 #
 
 
